@@ -1,0 +1,59 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+LIGHT NIGHT BLUE: #7D8C9A
+BEIGE: #DCAC7E
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+    background-color: #1D3557;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    background-color: #7D8C9A;
+    background-blend-mode: lighten;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+
+#hero-container {
+    background-image: url("images/istanbul-horizontal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -150px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    
+    
+}
+
+#activities-container {
+    margin: 20px 0;
+    padding: 40px 15px;
+    background-color: #DCAC7E;
+}
